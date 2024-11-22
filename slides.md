@@ -93,12 +93,8 @@ class: 'custom-background-14px'
 - **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
   
 - **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
-  
-- **Amélioration de la maintenance** : Simplifier les processus de mise à jour et d’audit;
-  
+    
 - **Faciliter l'accès** : Avoir une vue d'ensemble claire des outils à disposition des utilisateurs.
-
-<br>
 
 <h3 style='text-align:center;color:green;font-size:25px;'>&#129155;</h3>
 
@@ -109,6 +105,11 @@ class: 'custom-background-14px'
   <span v-mark.box.red="2"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
 
 </v-click>
+
+- **Amélioration de la maintenance** : simplifier les processus de mise à jour et d’audit;
+
+- **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts d'incidents opérationnels.
+
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

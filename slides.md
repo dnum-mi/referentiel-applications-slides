@@ -89,6 +89,7 @@ class: 'custom-background-14px'
 <h2 style="text-align: center;">Objectifs du référentiel</h2>
 
 <v-click>
+  
 - **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
   
 - **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
@@ -97,13 +98,13 @@ class: 'custom-background-14px'
 
 <h3 style='text-align:center;color:green;font-size:25px;'>&#129155;</h3>
 
-  <span v-mark.box.red="1"> &#x2705; patrimoine applicatif du ministère; </span>
+  <span v-mark.box.red="2"> &#x2705; patrimoine applicatif du ministère; </span>
  
-  <span v-mark.box.red="2"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
+  <span v-mark.box.red="3"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
 
   - **Amélioration de la maintenance** : simplifier les processus de mise à jour et d’audit;
 
-  - **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts d'incidents opérationnels.
+  - **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts suite à des incidents opérationnels.
 
 </v-click>
 

@@ -18,4 +18,4 @@ Présentation via [slides.md](./slides.md) .
 
 ## Site généré 
 
-[Le site](https://mogador26.github.io/referentiel-applications-codir2)
+[Le site](https://dnum-mi.github.io/referentiel-applications-slides)

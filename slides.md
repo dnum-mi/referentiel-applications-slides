@@ -90,7 +90,8 @@ class: 'custom-background-14px'
  <br>
 
 - **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
-- **Facilité d'accès** : Avoir une vue d'ensemble précise des produits;
+  
+- **Facilité d'accès** : Avoir une vue précise et d'ensemble des produits;
   
 <v-click>    
 
@@ -100,10 +101,15 @@ class: 'custom-background-14px'
 
 </v-click>
 
-- **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
-- **Amélioration de la maintenance** : Simplifier les processus de mise à jour et d’audit;
-- **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts suite à des incidents opérationnels;
+<v-click>
 
+- **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
+
+- **Amélioration de la maintenance** : Simplifier les processus de mise à jour et d’audit;
+
+- **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts d'incidents opérationnels;
+
+</v-click>
 
 
 
@@ -131,7 +137,7 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, du coeur de la marguerite partageant les <span v-mark.box.red="3">données utiles</span> (identifiant, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (coeur de la marguerite) partageant les <span v-mark.box.red="3">données utiles</span> (identifiant, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
 
 - **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
    
@@ -232,9 +238,11 @@ class: 'custom-background-14px'
 
 <br>
 
-- Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif.
+<br>
 
-- **Étapes suivantes** : Continuer à intégrer de nouvelles applications et affiner les connexions pour répondre aux besoins croissants.
+<br>
+
+- Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif.
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -267,6 +275,8 @@ class: 'custom-background-12px'
 <br>
 
 ### Pour qui ?
+
+<br>
 
 - Direction Générale et Décideurs Stratégiques
 - Direction de la Transformation Numérique
@@ -302,6 +312,8 @@ class: 'custom-background-14px'
 <h3 style="text-align: center;font-style: italic;"> #gouvernance </h3>
 
 <br>
+
+![gouvernance](/images/DALL.E.20241123.TableRonde.jpg){ width=10  0%,height:100% }
 
 - **Mise en place d’un comité de gouvernance** : Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
     

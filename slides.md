@@ -101,8 +101,8 @@ class: 'custom-background-14px'
 </v-click>
 
 - **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
-- **Amélioration de la maintenance** : simplifier les processus de mise à jour et d’audit;
-- **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts suite à des incidents opérationnels;
+- **Amélioration de la maintenance** : Simplifier les processus de mise à jour et d’audit;
+- **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts suite à des incidents opérationnels;
 
 
 
@@ -167,7 +167,7 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- &#x1F50C; **API Exposée** : Le référentiel fournit une API pour permettre <span v-mark.box.red="2"> l’automatisation des mises à jour </span> et l'intégration avec d'autres systèmes;
+- &#x1F50C; **API Exposée** : Le référentiel expose une API pour permettre <span v-mark.box.red="2"> l’automatisation des mises à jour </span> et l'intégration avec d'autres systèmes;
 
 - &#x1F511; **Identification des applications** : Chaque consommateur de l'API est identifié de manière unique par une **API Key** afin d'accéder aux données; 
 
@@ -336,9 +336,9 @@ class: 'custom-background-12px'
 
 - &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (par exemple, modification d'une API ou d'une architecture);
   
-- &#x2705; **Validation automatisée** : Ajouter une couche de validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
+- &#x2705; **Validation automatisée** : Ajouter une validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
   
-- &#x1F440; **Validation de type data stewardship** : Ajouter une couche de validation manuelle des données avant leur intégration dans le référentiel pour assurer la qualité des informations (par exemple : dédoublonnage);
+- &#x1F440; **Validation de type data stewardship** : Ajouter une validation manuelle des données avant leur intégration dans le référentiel pour assurer la qualité des informations (par exemple : dédoublonnage);
   
 - &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
 </v-click>
@@ -397,9 +397,9 @@ class: 'custom-background-14px'
 La doctrine de la cartographie du Système d'Informations (SI) devient une entité <span v-mark.underline.red="2">proactive</span>, capable de :
 
 - se mettre à jour en *temps réel*; 
-- répondre rapidement aux changements dans l'écosystème des applications et des technologies. 
+- répondre rapidement aux changements dans l'écosystème des applications et des technologies;
 
-- <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du Référentiel des Produits Numériques</span>
+- <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du Référentiel des Produits Numériques</span>;
 
 - <span v-mark.box.red="4">Permettre également une meilleure réactivité face aux évolutions du SI.</span>
 

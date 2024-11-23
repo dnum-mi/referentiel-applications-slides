@@ -30,7 +30,6 @@ class: custom-background-14px
 
 <br>
 
-<br>
 
 <br>
 
@@ -88,25 +87,24 @@ class: 'custom-background-14px'
 
 <h2 style="text-align: center;">Objectifs du référentiel</h2>
 
-<v-click>
-  
-- **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
-  
-- **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
-    
-- **Faciliter l'accès** : Avoir une vue d'ensemble claire des outils à disposition des utilisateurs.
+ <br>
 
-<h3 style='text-align:center;color:green;font-size:25px;'>&#129155;</h3>
+- **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
+- **Facilité d'accès** : Avoir une vue d'ensemble précise des produits;
+  
+<v-click>    
 
   <span v-mark.box.red="2"> &#x2705; patrimoine applicatif du ministère; </span>
  
   <span v-mark.box.red="3"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
 
-  - **Amélioration de la maintenance** : simplifier les processus de mise à jour et d’audit;
-
-  - **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts suite à des incidents opérationnels.
-
 </v-click>
+
+- **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
+- **Amélioration de la maintenance** : simplifier les processus de mise à jour et d’audit;
+- **Amélioration de l'exploitabilité** : mesurer plus facilement les impacts suite à des incidents opérationnels;
+
+
 
 
 
@@ -133,12 +131,12 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.underline.red="1">point de vérité, du coeur de la marguerite</span> partageant les données utiles à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, du coeur de la marguerite partageant les <span v-mark.box.red="3">données utiles</span> (identifiant, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
 
-- **Modules associés** : Applications et outils externes <span v-mark.underline.red="2">(les pétales)</span> connectés à l'application principale;
+- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
    
 - **Gestion des interfaces et des flux de données** : Représentation des inter-actions applicatives et leurs flux de données.
-<!-- Visualisation des connexions stratégiques entre applications -->
+
 - **Suivi des flux** : Outils de monitoring pour détecter et résoudre les problèmes potentiels.
 
 </v-click>
@@ -153,6 +151,8 @@ class: 'custom-background-14px'
   </a>
 </div>
 
+<!-- Visualisation des connexions stratégiques entre applications -->
+
 ---
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
@@ -160,8 +160,8 @@ transition: fade-out
 class: 'custom-background-14px'
 ---
 
-<h2 style="text-align: center;">Automatisation</h2>
-<h3 style="text-align: center;">avec</h3>
+<h2 style="text-align: center;">Modules associés</h2>
+<h3 style="text-align: center;">automatisation</h3>
 
 <br>
 
@@ -208,7 +208,9 @@ class: 'custom-background-14px'
   
 - **Prise de décision** : Accès rapide aux informations clés pour un meilleur pilotage;
   
-- **Conformité et sécurité** : Facilitation des audits et amélioration de la sécurité.
+- **Conformité et sécurité** : Facilitation des audits et amélioration de la sécurité;
+  
+- **Redonner du temps** : Redonner du temps utile aux agents.
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -293,27 +295,21 @@ class: 'custom-background-12px'
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 transition: fade-out
-class: 'custom-background-12px'
+class: 'custom-background-14px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
-<h3 style="text-align: center;font-style: italic;"> #automisation </h3>
+<h3 style="text-align: center;font-style: italic;"> #gouvernance </h3>
 
 <br>
 
-<v-click>
+- **Mise en place d’un comité de gouvernance** : Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
+    
+- **Journalisation et auditabilité** : Assurer une journalisation complète des actions automatisées pour pouvoir effectuer des audits et retracer les modifications;
+   
+- **KPIs d'automatisation** : Développer des indicateurs pour mesurer l'efficacité des processus automatisés, comme le taux de mises à jour automatisées ou la réduction du temps de mise à jour.
 
-- &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL, PAI  etc... </span> )
-
-- &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (par exemple, modification d'une API ou d'une architecture);
   
-- &#x2705; **Validation automatisée** : Ajouter une couche de validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
-  
-- &#x1F440; **Validation de type data stewardship** : Ajouter une couche de validation manuelle des données avant leur intégration dans le référentiel pour assurer la qualité des informations (par exemple : dédoublonnage);
-  
-- &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
-</v-click>
-
 <div class="abs-br m-6 flex gap-2">
    <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
@@ -328,21 +324,25 @@ class: 'custom-background-12px'
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 transition: fade-out
-class: 'custom-background-14px'
+class: 'custom-background-12px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
-<h3 style="text-align: center;font-style: italic;"> #gouvernance </h3>
+<h3 style="text-align: center;font-style: italic;"> #automisation </h3>
 
-<br>
+<v-click>
 
-- **Mise en place d’un comité de gouvernance** : Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
-   
-- **Journalisation et auditabilité** : Assurer une journalisation complète des actions automatisées pour pouvoir effectuer des audits et retracer les modifications;
-   
-- **KPIs d'automatisation** : Développer des indicateurs pour mesurer l'efficacité des processus automatisés, comme le taux de mises à jour automatisées ou la réduction du temps de mise à jour.
+- &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL, PAI  etc... </span> )
 
+- &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (par exemple, modification d'une API ou d'une architecture);
   
+- &#x2705; **Validation automatisée** : Ajouter une couche de validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
+  
+- &#x1F440; **Validation de type data stewardship** : Ajouter une couche de validation manuelle des données avant leur intégration dans le référentiel pour assurer la qualité des informations (par exemple : dédoublonnage);
+  
+- &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
+</v-click>
+
 <div class="abs-br m-6 flex gap-2">
    <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />

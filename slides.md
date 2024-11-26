@@ -407,14 +407,11 @@ class: 'custom-background-14px'
 
 La doctrine de la cartographie du Système d'Informations (SI) devient une entité <span v-mark.underline.red="2">proactive</span>, capable de :
 
-- se mettre à jour en *temps réel*; 
-- répondre rapidement aux changements dans l'écosystème des applications et des technologies;
-
+- Se mettre à jour en *temps réel*; 
+- Répondre rapidement aux changements dans l'écosystème des applications et des technologies;
 - <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du Référentiel des Produits Numériques</span>;
-
-- <span v-mark.box.red="4">Permettre une meilleure réactivité face aux évolutions du SI.</span>;
-  
-- <span v-mark.box.red="5">Permettre également une meilleure maitrise des risques liés à la transformaton du SI.</span>
+- <span v-mark.box.red="4">Permettre une meilleure réactivité face aux évolutions du SI;</span>
+- <span v-mark.box.red="5">Permettre également une meilleure maîtrise des risques liés à la transformaton du SI.</span>
 
 </v-click>
 

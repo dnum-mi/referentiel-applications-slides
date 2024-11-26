@@ -311,8 +311,6 @@ class: 'custom-background-14px'
 
 <br>
 
-![gouvernance](/images/DALL.E.20241123.TableRonde.jpg){ width=10  0%,height:100% }
-
 - **Mise en place d’un comité de gouvernance** : Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
     
 - **Journalisation et auditabilité** : Assurer une journalisation complète des actions automatisées pour pouvoir effectuer des audits et retracer les modifications;

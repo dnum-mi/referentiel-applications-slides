@@ -275,7 +275,7 @@ class: 'custom-background-12px'
 ### Pour qui ?
 
 <br>
-q
+
 - Direction Générale et Décideurs Stratégiques
 - Direction de la Transformation Numérique
 - Les Métiers

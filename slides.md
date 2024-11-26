@@ -250,6 +250,8 @@ class: 'custom-background-14px'
 
 - Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif.
 
+- Un référentiel des applications accessible et connecté redonnant du temps aux agents
+  
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
@@ -286,6 +288,7 @@ class: 'custom-background-12px'
 - Équipes Produits
 - Responsables Exploitations et Supervisions Techniques
 
+<!-- Utilisateurs finaux dans le cas notamment des logiciels utiisés sur le poste de travail-->
 <br>
 
 
@@ -409,7 +412,9 @@ La doctrine de la cartographie du Système d'Informations (SI) devient une entit
 
 - <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du Référentiel des Produits Numériques</span>;
 
-- <span v-mark.box.red="4">Permettre également une meilleure réactivité face aux évolutions du SI.</span>
+- <span v-mark.box.red="4">Permettre une meilleure réactivité face aux évolutions du SI.</span>;
+  
+- <span v-mark.box.red="5">Permettre également une meilleure maitrise des risques liés à la transformaton du SI.</span>
 
 </v-click>
 

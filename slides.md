@@ -16,7 +16,13 @@ class: custom-background-14px
   color: #ffffff;
   font-size: 14px;
 }
+.custom-background-12px {
+  background-color: #050505;
+  color: #ffffff;
+  font-size: 12px;
+}
 </style>
+
 
 <h1 style="text-align: center;">Référentiel des Produits Numériques</h1>
 
@@ -137,7 +143,7 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (coeur de la marguerite) partageant les <span v-mark.box.red="3">données utiles</span> (identifiant, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (coeur de la marguerite) partageant les <span v-mark.box.red="3">données utiles</span> (numéro d'affaire, identifiant unique, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
 
 - **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
    
@@ -261,14 +267,6 @@ transition: fade-out
 class: 'custom-background-12px'
 ---
 
-<style>
-.custom-background-12px {
-  background-color: #050505;
-  color: #ffffff;
-  font-size: 12px;
-}
-</style>
-
 <h2 style="text-align: center;"> Doctrine </h2>
 <h3 style="text-align: center;font-style: italic;"> #introduction </h3>
 
@@ -277,7 +275,7 @@ class: 'custom-background-12px'
 ### Pour qui ?
 
 <br>
-
+q
 - Direction Générale et Décideurs Stratégiques
 - Direction de la Transformation Numérique
 - Les Métiers

@@ -317,14 +317,14 @@ class: 'custom-background-12px'
 <br>
 
 - **Compréhension globale** : Fournir une vue d'ensemble claire des applications et de leurs interactions pour aider à la prise de décisions stratégiques;
-  
-- **Optimisation des ressources** : Identifier les redondances et les opportunités de rationalisation des applications;
-  
+   
 - **Sécurité et conformité** : Cartographier les flux de données pour assurer leur sécurité et répondre aux exigences réglementaires;
-  
+
+- **Exploitabilité** : Faciliter l'exploitation des applications;
+
 - **Gestion des changements** : Faciliter l'évaluation des impacts des changements et transformation au sein du système d'informations;
 
-- **Exploitabilité** : Faciliter l'exploitation des applications.
+- **Optimisation des ressources** : Identifier les redondances et les opportunités de rationalisation des applications.
 
 
   

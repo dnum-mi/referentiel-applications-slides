@@ -305,7 +305,7 @@ class: 'custom-background-12px'
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 transition: fade-out
-class: 'custom-background-12px'
+class: 'custom-background-14px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
@@ -314,9 +314,29 @@ class: 'custom-background-12px'
 
 ### Pour quoi ?
 
-
-
 <br>
+
+- **Compréhension globale** : Fournir une vue d'ensemble claire des applications et de leurs interactions pour aider à la prise de décisions stratégiques;
+  
+- **Optimisation des ressources** : Identifier les redondances et les opportunités de rationalisation des applications;
+  
+- **Sécurité et conformité** : Cartographier les flux de données pour assurer leur sécurité et répondre aux exigences réglementaires;
+  
+- **Gestion des changements** : Faciliter l'évaluation des impacts des changements et transformation au sein du système d'informations;
+
+- **Exploitabilité** : Faciliter l'exploitation des applications.
+
+
+  
+<div class="abs-br m-6 flex gap-2">
+   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div>
 
 ---
 layout: image-left

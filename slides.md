@@ -222,7 +222,7 @@ class: 'custom-background-14px'
   
 - **Conformité et sécurité** : Facilitation des audits et amélioration de la sécurité;
   
-- **Temps à valeur ajoutée** : Redonner du temps utile aux agents et partenaires du minsitère.
+- **Temps à valeur ajoutée** : Redonner du temps utile aux agents et partenaires du ministère.
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

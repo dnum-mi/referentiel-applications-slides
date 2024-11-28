@@ -305,7 +305,7 @@ class: 'custom-background-12px'
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 transition: fade-out
-class: 'custom-background-14px'
+class: 'custom-background-12px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>

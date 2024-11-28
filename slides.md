@@ -62,7 +62,7 @@ class: 'custom-background-14px'
 
 <br>
 
-- Le référentiel des produits numérique représente l'ensemble des produits numériques et logiciels utilisés au sein du système d'information;
+- Le référentiel des applications représente l'ensemble des produits numériques et logiciels utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement  pour un accès et une utilisation optimisés;
 
@@ -222,7 +222,7 @@ class: 'custom-background-14px'
   
 - **Conformité et sécurité** : Facilitation des audits et amélioration de la sécurité;
   
-- **Redonner du temps** : Redonner du temps utile aux agents.
+- **Temps à valeur ajoutée** : Redonner du temps utile aux agents et partenaires du minsitère.
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

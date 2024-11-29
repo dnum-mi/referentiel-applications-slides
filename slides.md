@@ -355,7 +355,7 @@ class: 'custom-background-14px'
 
 <br>
 
-- **Mise en place d’un comité de gouvernance** : Le comité regroupe l'ensemble entités et acteurs (*authentifiés*) contribuant à la mise à jour du référentiel. Il permettra par décisions collégiales d'intégrer de nouveaux attributs de données éligibles aux points de vérité (*le coeur*). Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise. Le comité a vocation à ;
+- **Mise en place d’un comité de gouvernance** : Le comité regroupe l'ensemble entités et acteurs (*authentifiés*) contribuant à la mise à jour du référentiel. Il permettra par décisions collégiales d'intégrer de nouveaux attributs de données éligibles aux points de vérité (*le coeur*). Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
     
 - **Journalisation et auditabilité** : Assurer une journalisation complète des actions automatisées pour pouvoir effectuer des audits et retracer les modifications;
    

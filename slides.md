@@ -151,7 +151,8 @@ class: 'custom-background-14px'
 
 - **Suivi des flux** : Outils de monitoring pour détecter et résoudre les problèmes potentiels.
 
-[*] : point d'acquisition et de consommation
+<!-- pétales points d'acquisition et de consommation -->
+
 </v-click>
 
 

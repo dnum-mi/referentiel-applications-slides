@@ -145,13 +145,15 @@ class: 'custom-background-14px'
 
 - **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (coeur de la marguerite) partageant les <span v-mark.box.red="3">données utiles</span> (numéro d'affaire, identifiant unique, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
 
-- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
+- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales*</span>) connectés au référentiel;
    
 - **Gestion des interfaces et des flux de données** : Représentation des inter-actions applicatives et leurs flux de données.
 
 - **Suivi des flux** : Outils de monitoring pour détecter et résoudre les problèmes potentiels.
 
+[*] : point d'acquisition et de consommation
 </v-click>
+
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editeur" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

@@ -223,9 +223,11 @@ class: 'custom-background-14px'
   
 - **Prise de décision** : Accès rapide aux informations clés pour un meilleur pilotage;
   
-- **Conformité et sécurité** : Facilitation des audits et amélioration de la sécurité;
+- **Conformité et sécurité** : Facilitation des audits, amélioration de la sécurité et meilleur appréciation des actes de compromission;
   
 - **Temps à valeur ajoutée** : Redonner du temps utile aux agents et partenaires du ministère.
+
+<!-- https://cyber.gouv.fr/faq-systemes-dinformation-dimportance-vitale -->
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

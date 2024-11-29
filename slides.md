@@ -323,7 +323,7 @@ class: 'custom-background-12px'
    
 - **Sécurité et conformité** : Cartographier les flux de données pour assurer leur sécurité et répondre aux exigences réglementaires;
 
-- **Exploitabilité** : Faciliter l'exploitation des applications;
+- **Exploitabilité et impacts opérationnels** : Faciliter la compréhension et la gestion des incidents impliquants des applications;
 
 - **Gestion des changements** : Faciliter l'évaluation des impacts des changements et transformation au sein du système d'informations;
 
@@ -353,7 +353,7 @@ class: 'custom-background-14px'
 
 <br>
 
-- **Mise en place d’un comité de gouvernance** : Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise;
+- **Mise en place d’un comité de gouvernance** : Le comité regroupe l'ensemble entités et acteurs (*authentifiés*) contribuant à la mise à jour du référentiel. Il permettra par décisions collégiales d'intégrer de nouveaux attributs de données éligibles aux points de vérité (*le coeur*). Superviser l’utilisation des outils d’automatisation, vérifier la conformité et l’alignement avec la stratégie de l’entreprise. Le comité a vocation à ;
     
 - **Journalisation et auditabilité** : Assurer une journalisation complète des actions automatisées pour pouvoir effectuer des audits et retracer les modifications;
    

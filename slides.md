@@ -419,7 +419,7 @@ class: 'custom-background-14px'
 
 - **Formation des équipes techniques** : Assurer que les équipes en charge de la cartographie, ainsi que les autres contributeurs clés, soient formées aux technologies et aux processus d'automatisation.
     
-- **Sensibilisation des utilisateurs** : Informer les utilisateurs sur les avantages de l'automatisation pour encourager leur adoption et leur participation.
+- **Sensibilisation des utilisateurs** : Informer les utilisateurs sur les avantages de l'automatisation pour encourager leur adoption et leur participation. Une participation qui est au service du collectif.
 
 <div class="abs-br m-6 flex gap-2">
    <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

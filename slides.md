@@ -99,15 +99,11 @@ class: 'custom-background-14px'
   
 - **Facilité d'accès** : Avoir une vue précise et d'ensemble des produits;
   
-<v-click>    
+<v-clicks>    
 
-  <span v-mark.box.red="2"> &#x2705; patrimoine applicatif du ministère; </span>
+  <span v-mark.box.red="1"> &#x2705; patrimoine applicatif du ministère; </span>
  
-  <span v-mark.box.red="3"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
-
-</v-click>
-
-<v-click>
+  <span v-mark.box.red="2"> &#x2705; l'ensemble des applications hébergées et supervisées </span>
 
 - **Gestion des dépendances** : Comprendre les interconnexions et dépendances entre applications;
 
@@ -115,10 +111,7 @@ class: 'custom-background-14px'
 
 - **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts d'incidents opérationnels;
 
-</v-click>
-
-
-
+</v-clicks>
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -143,9 +136,9 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (coeur de la marguerite) partageant les <span v-mark.box.red="3">données utiles</span> (numéro d'affaire, identifiant unique, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (*coeur de la fleur*) partageant les <span v-mark.box.red="3">données utiles</span> (numéro d'affaire, identifiant unique, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
 
-- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales*</span>) connectés au référentiel;
+- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
    
 - **Gestion des interfaces et des flux de données** : Représentation des inter-actions applicatives et leurs flux de données.
 

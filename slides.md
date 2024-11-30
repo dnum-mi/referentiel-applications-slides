@@ -100,7 +100,7 @@ class: 'custom-background-14px'
 
 - **Centralisation** : Rassembler toutes les fiches produits dans un seul point de vérité;
   
-- **Facilité d'accès** : Avoir une vue précise et d'ensemble des produits;
+- **Facilité d'accès** : Avoir une vue précise et d'ensemble des produits (*fiche du produit*);
   
 <v-clicks>    
 
@@ -446,7 +446,7 @@ La doctrine de la cartographie du Système d'Informations (SI) devient une entit
 
 - Se mettre à jour en *temps réel*; 
 - Répondre rapidement aux changements dans l'écosystème des applications et des technologies;
-- <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du Référentiel des Produits Numériques</span>;
+- <span v-mark.box.red="3">Améliorer à la fois la précision et la fiabilité du référentiel</span>;
 - <span v-mark.box.red="4">Permettre une meilleure réactivité face aux évolutions du SI;</span>
 - <span v-mark.box.red="5">Permettre également une meilleure maîtrise des risques liés à la transformaton du SI.</span>
 

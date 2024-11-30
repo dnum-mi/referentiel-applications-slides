@@ -16,6 +16,9 @@ class: custom-background-14px
   color: #ffffff;
   font-size: 14px;
 }
+.custom-default-12px {
+  font-size: 12px;
+}
 .custom-background-12px {
   background-color: #050505;
   color: #ffffff;
@@ -136,9 +139,9 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (*coeur de la fleur*) partageant les <span v-mark.box.red="3">données utiles</span> (numéro d'affaire, identifiant unique, nom, description, etc.) à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (*coeur de la fleur*) partageant les <span v-mark.box.red="3">données utiles</span> (*numéro d'affaire, identifiant unique, nom, description, etc.*) à l'ensemble des contributeurs et usagers du SI;
 
-- **Modules associés** : Applications et outils externes (les <span v-mark.box.red="4">pétales</span>) connectés au référentiel;
+- **Modules associés** : Applications et outils externes (les *<span v-mark.box.red="4">pétales</span>*) connectés au référentiel;
    
 - **Gestion des interfaces et des flux de données** : Représentation des inter-actions applicatives et leurs flux de données.
 
@@ -275,17 +278,17 @@ class: 'custom-background-12px'
 
 <br>
 
-- Direction Générale et Décideurs Stratégiques
-- Direction de la Transformation Numérique
-- Les Métiers
-- Utilisateurs Finaux
-- Architectes d'Entreprise et SI
-- SSI
-- Auditeurs et Conformité (*RGPD, RGAA, etc.*)
-- Équipes Produits
+- Direction Générale et Décideurs Stratégiques;
+- Les Métiers;
+- Direction de la Transformation Numérique;
+- SGAMI;
+- Architectes (*d'Entreprise*, *Solution*, *infra*,...);
+- SSI;
+- Auditeurs et Conformité (*RGPD, RGAA, etc.*);
+- Équipes Produits;
 - Responsables Exploitations et Supervisions Techniques
 
-<!-- Utilisateurs finaux dans le cas notamment des logiciels utiisés sur le poste de travail-->
+<!-- Utilisateurs finaux dans le cas notamment des logiciels utiisés sur le poste de travail -->
 <br>
 
 
@@ -467,6 +470,77 @@ class: 'custom-background-14px'
 ---
 
 <h2 style="text-align: center;">Questions ?</h2>
+
+<div class="abs-br m-6 flex gap-2">
+  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div>
+
+---
+layout: full
+transition: fade-out
+class: 'custom-default-12px'
+---
+
+<h2 style="text-align: center;">Architecture logiciel</h2>
+
+<br>
+
+- Chaque consommateur(*pétales*) du service est authentifié;
+- Authentifcation: ***API-KEY*** 
+  
+```mermaid
+%%{
+  init: {
+    'theme': 'default',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'fontSize': 14px
+    }
+  }
+}%%
+architecture-beta
+
+    group api(cloud)[API]
+
+    service gateway(internet)[Gateway] in api
+    service db(database)[Postgresql] in api
+    service disk1(disk)[Storage] in api
+    service backend(server)[NestJs] in api
+    service authent(server)[OAuth2] in api
+
+    gateway:B -- T:authent
+    gateway:T -- B:backend
+    db:L -- R:backend
+    disk1:T -- B:db
+
+    group frontend(cloud)[frontend]
+
+     service front(server)[VueJS_Dsfr] in frontend 
+     front:R --> L:gateway
+
+    group tableur(cloud)[Grist]
+
+     service grist(server)[Petales] in tableur 
+     grist:R --> L:gateway
+
+    group consoledso(cloud)[consoledso]
+
+     service console(server)[console_dso] in consoledso 
+     console:T --> B:gateway
+
+
+```
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

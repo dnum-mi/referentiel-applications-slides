@@ -482,18 +482,30 @@ class: 'custom-background-14px'
 </div>
 
 ---
-layout: full
+layout: two-cols
 transition: fade-out
 class: 'custom-default-12px'
 ---
 
-<h2 style="text-align: center;">Architecture logiciel</h2>
+# Architecture logicielle
 
 <br>
 
+
 - Chaque consommateur(*pétales*) du service est authentifié;
-- Authentifcation: ***API-KEY*** 
-  
+- Authentifcation: ***API-KEY***
+- Les consommateurs peuvent être :
+  - le processus de demandes clients;
+  - les consoles cloud;
+  - les solutions de ticketing (minitil...);
+  - les services archi infra / réseaux;
+  - les services de supervision;
+  - ...
+
+<br>
+
+::right::
+
 ```mermaid
 %%{
   init: {
@@ -505,7 +517,7 @@ class: 'custom-default-12px'
       'lineColor': '#F8B229',
       'secondaryColor': '#006100',
       'tertiaryColor': '#fff',
-      'fontSize': 14px
+      'fontSize': 10px
     }
   }
 }%%
@@ -529,12 +541,12 @@ architecture-beta
      service front(server)[VueJS_Dsfr] in frontend 
      front:R --> L:gateway
 
-    group tableur(cloud)[Grist]
+    group tableur(cloud)[petales]
 
-     service grist(server)[Petales] in tableur 
+     service grist(server)[grist] in tableur 
      grist:R --> L:gateway
 
-    group consoledso(cloud)[consoledso]
+    group consoledso(cloud)[petales]
 
      service console(server)[console_dso] in consoledso 
      console:T --> B:gateway

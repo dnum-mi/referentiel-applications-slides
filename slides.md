@@ -494,11 +494,12 @@ class: 'custom-default-12px'
 
 - Chaque consommateur(*pétales*) du service est authentifié;
 - Authentifcation: ***API-KEY***
-- Les consommateurs peuvent être :
+- Les consommateurs/fournisseurs peuvent être :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
   - les consoles cloud;
   - les solutions de ticketing (ex: *minitil*...);
   - les services archi infra / réseaux;
+  - les services d'infrastructure (ex: cmdb)
   - les services de supervision;
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
   - ...

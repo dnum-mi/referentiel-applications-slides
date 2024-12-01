@@ -552,6 +552,12 @@ architecture-beta
      service console(server)[console_dso] in consoledso 
      console:T --> B:gateway
 
+    group cmdb_cloud(cloud)[petales]
+
+      service cmdb(server)[cmdb] in cmdb_cloud
+
+      cmdb:T --> B:gateway
+
 
 ```
 

@@ -273,7 +273,7 @@ class: 'custom-default-12px'
       'lineColor': '#F8B229',
       'secondaryColor': '#006100',
       'tertiaryColor': '#fff',
-      'fontSize': 10px
+      'fontSize': 14px
     }
   }
 }%%
@@ -300,18 +300,18 @@ architecture-beta
     group tableur(cloud)[petales]
 
      service grist(server)[grist] in tableur 
-     grist:R --> L:gateway
+     grist:R <--> L:gateway
 
     group consoledso(cloud)[petales]
 
      service console(server)[console_dso] in consoledso 
-     console:T --> B:gateway
+     console:T <--> B:gateway
 
     group cmdb_cloud(cloud)[petales]
 
       service cmdb(server)[cmdb] in cmdb_cloud
 
-      cmdb:T --> B:gateway
+      cmdb:T <--> B:gateway
 
 
 ```

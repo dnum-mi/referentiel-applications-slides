@@ -65,7 +65,7 @@ class: 'custom-background-14px'
 
 <br>
 
-- Le référentiel des applications représente l'ensemble des produits numériques et logiciels utilisés au sein du système d'information;
+- Le référentiel contient l'ensemble des applications et services(*produits numériques*) utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement pour un accès et une utilisation optimisés;
 

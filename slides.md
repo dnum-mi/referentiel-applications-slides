@@ -478,7 +478,7 @@ class: 'custom-background-12px'
   
 - &#x2705; **Validation automatisée** : Ajouter une validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
   
-- &#x1F440; **Validation manuelle (*data stewardship*)** : Ajouter si nécessaire une re-validation manuelle des données pour assurer la qualité des informations (par exemple : dédoublonnage);
+- &#x1F440; **Validation manuelle (*stewardship*)** : Ajouter si nécessaire une re-validation manuelle des données pour assurer la qualité des informations (par exemple : dédoublonnage);
   
 - &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
 </v-click>

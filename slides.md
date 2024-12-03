@@ -234,6 +234,97 @@ class: 'custom-background-14px'
     <carbon-logo-github />
   </a>
 </div>
+
+---
+layout: two-cols
+transition: fade-out
+class: 'custom-background-12px'
+---
+
+# Architecture logicielle
+
+<br>
+
+
+- Chaque consommateur(*pétales*) du service est authentifié;
+- Authentifcation: ***API-KEY***
+- Les consommateurs/fournisseurs peuvent être :
+  - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
+  - les consoles cloud;
+  - les solutions de ticketing (ex: *minitil*...);
+  - les services archi infra / réseaux;
+  - les services d'infrastructure (ex: cmdb)
+  - les services de supervision;
+  - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
+  - ...
+
+<br>
+
+::right::
+
+```mermaid
+%%{
+  init: {
+    'theme': 'default',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'fontSize': 10px
+    }
+  }
+}%%
+architecture-beta
+
+    group api(cloud)[API]
+
+    service gateway(internet)[Gateway] in api
+    service db(database)[Postgresql] in api
+    service disk1(disk)[Storage] in api
+    service backend(server)[NestJs] in api
+    service authent(server)[OAuth2] in api
+
+    gateway:B -- T:authent
+    gateway:T -- B:backend
+    db:L -- R:backend
+    disk1:T -- B:db
+
+    group frontend(cloud)[frontend]
+
+     service front(server)[VueJS_Dsfr] in frontend 
+     front:R --> L:gateway
+
+    group tableur(cloud)[petales]
+
+     service grist(server)[grist] in tableur 
+     grist:R --> L:gateway
+
+    group consoledso(cloud)[petales]
+
+     service console(server)[console_dso] in consoledso 
+     console:T --> B:gateway
+
+    group cmdb_cloud(cloud)[petales]
+
+      service cmdb(server)[cmdb] in cmdb_cloud
+
+      cmdb:T --> B:gateway
+
+
+```
+
+<div class="abs-br m-6 flex gap-2">
+  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div>
 ---
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
@@ -481,94 +572,5 @@ class: 'custom-background-14px'
   </a>
 </div>
 
----
-layout: two-cols
-transition: fade-out
-class: 'custom-background-12px'
----
 
-# Architecture logicielle
-
-<br>
-
-
-- Chaque consommateur(*pétales*) du service est authentifié;
-- Authentifcation: ***API-KEY***
-- Les consommateurs/fournisseurs peuvent être :
-  - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
-  - les consoles cloud;
-  - les solutions de ticketing (ex: *minitil*...);
-  - les services archi infra / réseaux;
-  - les services d'infrastructure (ex: cmdb)
-  - les services de supervision;
-  - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
-  - ...
-
-<br>
-
-::right::
-
-```mermaid
-%%{
-  init: {
-    'theme': 'default',
-    'themeVariables': {
-      'primaryColor': '#BB2528',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff',
-      'fontSize': 10px
-    }
-  }
-}%%
-architecture-beta
-
-    group api(cloud)[API]
-
-    service gateway(internet)[Gateway] in api
-    service db(database)[Postgresql] in api
-    service disk1(disk)[Storage] in api
-    service backend(server)[NestJs] in api
-    service authent(server)[OAuth2] in api
-
-    gateway:B -- T:authent
-    gateway:T -- B:backend
-    db:L -- R:backend
-    disk1:T -- B:db
-
-    group frontend(cloud)[frontend]
-
-     service front(server)[VueJS_Dsfr] in frontend 
-     front:R --> L:gateway
-
-    group tableur(cloud)[petales]
-
-     service grist(server)[grist] in tableur 
-     grist:R --> L:gateway
-
-    group consoledso(cloud)[petales]
-
-     service console(server)[console_dso] in consoledso 
-     console:T --> B:gateway
-
-    group cmdb_cloud(cloud)[petales]
-
-      service cmdb(server)[cmdb] in cmdb_cloud
-
-      cmdb:T --> B:gateway
-
-
-```
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
 

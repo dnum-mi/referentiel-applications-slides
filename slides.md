@@ -255,6 +255,7 @@ class: 'custom-default-12px'
   - les services archi infra / réseaux;
   - les services d'infrastructure (ex: cmdb)
   - les services de supervision;
+  - la mission de dette IT;
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
   - ...
 

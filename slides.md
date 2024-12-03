@@ -1,5 +1,5 @@
 ---
-title: Référentiel des Produits Numérique du Système d'Information
+title: Référentiel des Applications du Système d'Information
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 download: true
@@ -27,7 +27,7 @@ class: custom-background-14px
 </style>
 
 
-<h1 style="text-align: center;">Référentiel des Produits Numériques</h1>
+<h1 style="text-align: center;">Référentiel des Applications</h1>
 
 <br>
 
@@ -65,7 +65,7 @@ class: 'custom-background-14px'
 
 <br>
 
-- Le référentiel des applications représente l'ensemble des produits numériques et logiciels utilisés au sein du système d'information;
+- Le référentiel des applications représente l'ensemble des produits s et logiciels utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement  pour un accès et une utilisation optimisés;
 

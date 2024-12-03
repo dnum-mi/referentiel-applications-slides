@@ -238,7 +238,7 @@ class: 'custom-background-14px'
 ---
 layout: two-cols
 transition: fade-out
-class: 'custom-background-12px'
+class: 'custom-default-12px'
 ---
 
 # Architecture logicielle

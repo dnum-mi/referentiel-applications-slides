@@ -533,7 +533,7 @@ class: 'custom-background-14px'
 
 <v-click>
 
-La doctrine de la cartographie du Système d'Informations (SI) devient une entité <span v-mark.underline.red="2">proactive</span>, capable de :
+La cartographie du Système d'Informations (SI) devient une entité <span v-mark.underline.red="2">proactive</span>, capable de :
 
 - Se mettre à jour en *temps réel*; 
 - Répondre rapidement aux changements dans l'écosystème des applications et des technologies;

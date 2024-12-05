@@ -1,4 +1,4 @@
-# Présentation du référentiel des produits numériques
+# Présentation du référentiel des produits (applications et services)
 
 Présentation via [slides.md](./slides.md) .
 

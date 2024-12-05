@@ -65,6 +65,8 @@ class: 'custom-background-14px'
 
 <br>
 
+&#x1F6A7;
+
 - Le référentiel contient l'ensemble des applications et services(*produits numériques*) utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement pour un accès et une utilisation optimisés;

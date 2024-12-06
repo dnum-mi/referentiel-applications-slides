@@ -65,7 +65,7 @@ class: 'custom-background-14px'
 
 <br>
 
-&#x1F6A7;
+&#x1F6A7; *introduire les éléments codir2* 
 
 - Le référentiel contient l'ensemble des applications et services(*produits numériques*) utilisés au sein du système d'information;
   
@@ -141,9 +141,10 @@ class: 'custom-background-14px'
 
 <v-click>
 
-- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (*coeur de la fleur*) partageant les <span v-mark.box.red="3">données utiles</span> (*numéro d'affaire, identifiant unique, nom, description, etc.*) à l'ensemble des contributeurs et usagers du SI;
+- **Application centrale** : Il s'agit du <span v-mark.box.red="2">point de vérité</span>, (*coeur de la fleur*) partageant les <span v-mark.box.red="3">données utiles et communes</span> (*numéro d'affaire, identifiant unique, nom, description, etc.*) à l'ensemble des contributeurs et usagers du SI;
 
-- **Modules associés** : Applications et outils externes (les *<span v-mark.box.red="4">pétales</span>*) connectés au référentiel;
+- **Modules associés** : Applications et outils externes (les *<span v-mark.box.red="4">pétales</span>*) connectés au référentiel. La relation coeur et pétales est réalisée via l'identifiant unique qui est un UUID; 
+
    
 - **Gestion des interfaces et des flux de données** : Représentation des inter-actions applicatives et leurs flux de données.
 

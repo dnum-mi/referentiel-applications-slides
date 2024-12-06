@@ -61,7 +61,7 @@ transition: fade-out
 class: 'custom-background-14px'
 ---
 
-<h2 style="text-align: center;">Introduction</h2>
+<h2 style="text-align: center;">Contexte</h2>
 
 <br>
 
@@ -533,7 +533,7 @@ class: 'custom-background-14px'
 
 <v-click>
 
-La cartographie du Système d'Informations (SI) devient une entité <span v-mark.underline.red="2">proactive</span>, capable de :
+La cartographie du Système d'Informations (SI) devient une solution <span v-mark.underline.red="2">proactive</span>, capable de :
 
 - Se mettre à jour en *temps réel*; 
 - Répondre rapidement aux changements dans l'écosystème des applications et des technologies;

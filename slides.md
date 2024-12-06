@@ -472,6 +472,8 @@ class: 'custom-background-12px'
 <h2 style="text-align: center;"> Doctrine </h2>
 <h3 style="text-align: center;font-style: italic;"> #automisation </h3>
 
+<br>
+
 <v-click>
 
 - &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL v1, PAI, Tableur SDAN  etc... </span> )

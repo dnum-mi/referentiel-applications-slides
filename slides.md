@@ -477,7 +477,6 @@ class: 'custom-background-12px'
 - &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL v1, PAI, Tableur SDAN  etc... </span> )
 - &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (par exemple, modification d'une API ou d'une architecture); 
 - &#x2705; **Validation automatisée** : Ajouter une validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
-
 - &#x1F440; **Validation manuelle (*stewardship*)** : Ajouter si nécessaire une re-validation manuelle des données pour assurer la qualité des informations (par exemple : dédoublonnage); 
 - &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
 </v-click>

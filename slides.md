@@ -243,6 +243,7 @@ class: 'custom-default-12px'
   - ...
 - **Données essentielles** :
   - identifiant unique (UUID)
+  - nom et description de l'application ou services
   
 
 ::right::

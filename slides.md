@@ -45,9 +45,6 @@ class: custom-background-14px
 ## [Doctrine](./9)
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -80,9 +77,6 @@ class: 'custom-background-14px'
 <h3 style="text-align: center;">Tous concernés</h3>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -119,9 +113,6 @@ class: 'custom-background-14px'
 </v-clicks>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -156,9 +147,6 @@ class: 'custom-background-14px'
 
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editeur" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -192,9 +180,6 @@ class: 'custom-background-14px'
 
 
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://api-referentiel-applications.apps.app1.numerique-interieur.com/api/v1" target="_blank" alt="API" title="Swagger"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-api-1 />
@@ -229,9 +214,6 @@ class: 'custom-background-14px'
 <!-- https://cyber.gouv.fr/faq-systemes-dinformation-dimportance-vitale -->
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -248,10 +230,9 @@ class: 'custom-default-12px'
 
 <br>
 
-
 - Chaque consommateur(*pétales*) du service est authentifié;
 - Authentification: ***OAuth2***
-- Les consommateurs/fournisseurs peuvent être :
+- **Les consommateurs/fournisseurs** peuvent être :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
   - les consoles cloud;
   - les solutions de ticketing (ex: *minitil*...);
@@ -261,8 +242,9 @@ class: 'custom-default-12px'
   - la mission de dette IT;
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
   - ...
-
-<br>
+- **Données essentielles** :
+  - identifiant unique (UUID)
+  
 
 ::right::
 
@@ -290,7 +272,9 @@ architecture-beta
     service disk1(disk)[Storage] in api
     service backend(server)[NestJs] in api
     service authent(server)[OAuth2] in api
-
+    junction junctionCenter
+    junction junctionRight
+    
     gateway:B -- T:authent
     gateway:T -- B:backend
     db:L -- R:backend
@@ -346,12 +330,9 @@ class: 'custom-background-14px'
 
 - Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif.
 
-- Un référentiel des applications accessible et connecté redonnant du temps aux agents
+- Un référentiel des applications accessible et connecté redonnant du temps utiles aux agents.
   
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -388,9 +369,6 @@ class: 'custom-background-12px'
 
 
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -454,9 +432,6 @@ class: 'custom-background-14px'
 
   
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -478,8 +453,8 @@ class: 'custom-background-12px'
 <v-click>
 
 - &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL v1, PAI, Tableur SDAN  etc... </span> )
-- &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (par exemple, modification d'une API ou d'une architecture); 
-- &#x2705; **Validation automatisée** : Ajouter une validation automatique des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
+- &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (ex: environnements, composants logiciels); 
+- &#x2705; **Validation automatisée** : Valider automatiquement des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
 - &#x1F440; **Validation manuelle (*stewardship*)** : Ajouter si nécessaire une re-validation manuelle des données pour assurer la qualité des informations (par exemple : dédoublonnage); 
 - &#x1F440; **Curation**: Assurer l'amélioration de la qualité des données dans une démarche collaborative.
 </v-click>
@@ -511,9 +486,6 @@ class: 'custom-background-14px'
 - **Sensibilisation des utilisateurs** : Informer les utilisateurs sur les avantages de l'automatisation pour encourager leur adoption et leur participation. Une participation qui est au service du collectif.
 
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -546,9 +518,6 @@ La cartographie du Système d'Informations (SI) devient une solution <span v-mar
 </v-click>
 
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -565,9 +534,6 @@ class: 'custom-background-14px'
 <h2 style="text-align: center;">Questions ?</h2>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />

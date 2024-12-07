@@ -230,8 +230,7 @@ class: 'custom-default-12px'
 
 <br>
 
-- Chaque consommateur(*pétales*) du service est authentifié;
-- Authentification: ***OAuth2***
+- Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
 - **Les consommateurs/fournisseurs** peuvent être :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
   - les consoles cloud;

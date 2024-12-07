@@ -231,12 +231,12 @@ class: 'custom-default-12px'
 <br>
 
 - Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
-- **Les consommateurs/fournisseurs** peuvent être :
+- **Les consommateurs/fournisseurs** en cible (*mais pas que*) sont :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
   - les consoles cloud;
   - les solutions de ticketing (ex: *minitil*...);
   - les services archi infra / réseaux;
-  - les services d'infrastructure (ex: cmdb)
+  - les services d'infrastructure (ex: cmdbs)
   - les services de supervision;
   - la mission de dette IT;
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)

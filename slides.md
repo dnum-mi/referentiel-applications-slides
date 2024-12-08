@@ -68,7 +68,7 @@ class: 'custom-background-14px'
 
 - &#x2705; De nombreux référentiels contenant des informations sur les applications et services;
   
-- &#x2705; L'unicité des noms et descriptions d'applications ne sont pas effectives au sein des référentiels. 
+- &#x2705; L'unicité des noms et descriptions d'applications ne sont pas effectives entre les référentiels. 
 
 - &#x2705; Aucun identifiant unique et partagé entre les référentiels;
 

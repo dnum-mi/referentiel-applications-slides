@@ -64,6 +64,17 @@ class: 'custom-background-14px'
 
 &#x1F6A7; *introduire les éléments codir2* 
 
+<br>
+
+- &#x2705; De nombreux référentiels contenant des informations sur les applications et services;
+  
+- &#x2705; L'unicité des noms et descriptions d'applications ne sont pas effectives au sein des référentiels. 
+
+- &#x2705; Aucun identifiant unique et partagé entre les référentiels;
+
+- &#x2705; Connaissances toutes relatives des impacts sur le système d'informations.  
+
+<!--
 - Le référentiel contient l'ensemble des applications et services(*produits numériques*) utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement pour un accès et une utilisation optimisés;
@@ -72,9 +83,13 @@ class: 'custom-background-14px'
 
 - Il est adressé à l'ensemble des acteurs du Système d'information.
 
+-->
+
 <br>
 
+<!--
 <h3 style="text-align: center;">Tous concernés</h3>
+-->
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
@@ -171,7 +186,7 @@ class: 'custom-background-14px'
 
 - &#x1F50C; **API Exposée** : Le référentiel expose une API pour permettre <span v-mark.box.red="2"> l’automatisation des mises à jour </span> et l'intégration avec d'autres systèmes;
 
-- &#x1F511; **Identification des applications** : Chaque consommateur de l'API est identifié de manière unique par une **API Key** afin d'accéder aux données; 
+- &#x1F511; **Identification des applications** : Chaque consommateur de l'API est identifié de manière unique afin d'accéder aux données; 
 
 - &#x1F504; **Mise à jour Automatique** : Les informations du référentiel sont maintenues à jour sans intervention manuelle augmentant la qualité des données tout <span v-mark.box.red="3">  en réduisant la charge de travail de l'agent. </span>
 
@@ -272,8 +287,8 @@ architecture-beta
     service disk1(disk)[Storage] in api
     service backend(server)[NestJs] in api
     service authent(server)[OAuth2] in api
-    junction junctionCenter
-    junction junctionRight
+    junction junctionCenter in api
+    junction junctionRight in api
     
     gateway:B -- T:authent
     gateway:T -- B:backend
@@ -403,9 +418,6 @@ class: 'custom-background-12px'
 
   
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -416,7 +428,7 @@ class: 'custom-background-12px'
 layout: image-left
 image: /images/DALL·E-2024-11-01-13.06.13.jpg
 transition: fade-out
-class: 'custom-background-14px'
+class: 'custom-background-12px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
@@ -446,7 +458,7 @@ class: 'custom-background-12px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
-<h3 style="text-align: center;font-style: italic;"> #automisation </h3>
+<h3 style="text-align: center;font-style: italic;"> #automatisation </h3>
 
 <br>
 
@@ -460,9 +472,6 @@ class: 'custom-background-12px'
 </v-click>
 
 <div class="abs-br m-6 flex gap-2">
-   <button @click="$slidev.nav.openInEditor()" title="Editer" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Ouvri dans GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />

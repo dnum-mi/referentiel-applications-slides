@@ -258,8 +258,11 @@ class: 'custom-default-12px'
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
   - ...
 - **Données essentielles** :
-  - identifiant unique (UUID)
-  - nom et description de l'application ou services
+  - **identifiant unique (UUID)**;
+  - nom et description de l'application ou services;
+  - acteurs (moa, moe, presta);
+  - site d'hébergement, niveau de service (dima, pdma);
+  - date et durée d'homologation, niveau rgaa ...
   
 
 ::right::

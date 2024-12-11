@@ -244,7 +244,6 @@ class: 'custom-default-12px'
 # Architecture logicielle
 
 <br>
-
 - Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
 - **Les consommateurs/fournisseurs** en cible (*mais pas que*) sont :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);

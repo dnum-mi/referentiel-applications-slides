@@ -243,7 +243,6 @@ class: 'custom-default-12px'
 
 # Architecture logicielle
 
-<br>
 - Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
 - **Les consommateurs/fournisseurs** en cible (*mais pas que*) sont :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
@@ -257,8 +256,7 @@ class: 'custom-default-12px'
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
   - ...
 - **Données essentielles** :
-  - **identifiant unique (UUID)**;
-  - nom et description de l'application ou services;
+  - **identifiant unique (UUID)**, nom et description de l'application ou services;
   - acteurs (moa, moe, presta);
   - site d'hébergement, niveau de service (dima, pdma);
   - date et durée d'homologation, niveau rgaa ...

@@ -456,7 +456,7 @@ class: 'custom-background-12px'
 ---
 
 <h2 style="text-align: center;"> Doctrine </h2>
-<h3 style="text-align: center;font-style: italic;"> #automatisation </h3>
+<h3 style="text-align: center;font-style: italic;"> #interface / intégration </h3>
 
 <br>
 

@@ -66,15 +66,6 @@ class: 'custom-background-14px'
 
 <br>
 
-- &#x2705; De nombreux référentiels contenant des informations sur les applications et services;
-  
-- &#x2705; L'unicité des noms et descriptions d'applications ne sont pas effectives entre les référentiels. 
-
-- &#x2705; Aucun identifiant unique et partagé entre les référentiels;
-
-- &#x2705; Connaissances toutes relatives des impacts sur le système d'informations.  
-
-<!--
 - Le référentiel contient l'ensemble des applications et services(*produits numériques*) utilisés au sein du système d'information;
   
 - Il permet de centraliser, structurer, et gérer efficacement pour un accès et une utilisation optimisés;
@@ -82,6 +73,15 @@ class: 'custom-background-14px'
 - Il "participe à la protection, à la défense et à la résilience du système d’information"[(*)](https://cyber.gouv.fr/publications/cartographie-du-systeme-dinformation). 
 
 - Il est adressé à l'ensemble des acteurs du Système d'information.
+
+<!--
+- &#x2705; De nombreux référentiels contenant des informations sur les applications et services;
+  
+- &#x2705; L'unicité des noms et descriptions d'applications ne sont pas effectives entre les référentiels. 
+
+- &#x2705; Aucun identifiant unique et partagé entre les référentiels;
+
+- &#x2705; Connaissances toutes relatives des impacts sur le système d'informations.  
 
 -->
 

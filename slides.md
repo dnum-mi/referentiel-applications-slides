@@ -341,10 +341,11 @@ class: 'custom-background-14px'
 
 <br>
 
-- Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif.
+- Un référentiel des applications bien structuré est essentiel pour un système d'information efficace, sécurisé et évolutif (*aide à la décision et maitrise des risques*)
 
 - Un référentiel des applications accessible et connecté redonnant du temps utiles aux agents.
-  
+
+ 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">

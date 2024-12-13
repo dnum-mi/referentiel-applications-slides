@@ -256,12 +256,7 @@ class: 'custom-default-12px'
   - les services financiers: *consommateur*;
   - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*) : *consommateur* à terme producteur;
   - ...
-- **Données essentielles** :
-  - **identifiant unique (UUID)**, nom et description de l'application ou services;
-  - acteurs (moa, moe, presta), populations ayant accès à l'application (implique le type de SSO;
-  - site d'hébergement, niveau de service (dima, pdma);
-  - date et durée d'homologation, niveau rgaa ...
-  
+ 
 
 ::right::
 
@@ -320,6 +315,11 @@ architecture-beta
 
 
 ```
+- **Données essentielles** :
+  - **identifiant unique (UUID)**, nom et description de l'application ou services;
+  - acteurs (moa, moe, presta), populations ayant accès à l'application (implique le type de SSO;
+  - site d'hébergement, niveau de service (dima, pdma);
+  - date et durée d'homologation, niveau rgaa ...
 
 <div class="abs-br m-6 flex gap-2">
    <a href="https://github.com/dnum-mi/referentiel-applications" target="_blank" alt="GitHub" title="Open in GitHub"

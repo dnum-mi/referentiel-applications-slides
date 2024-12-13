@@ -255,7 +255,7 @@ class: 'custom-default-12px'
   - les services de supervision: *consommateur*;
   - la mission de dette IT: *consommateur*;
   - Passage IAP (applications): *consommateur*;
-    - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*) : *consommateur* à terme producteur;
+  - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*) : *consommateur* à terme producteur;
   - ...
  
 ::right::

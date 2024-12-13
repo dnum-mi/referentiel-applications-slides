@@ -245,15 +245,16 @@ class: 'custom-default-12px'
 
 - Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
 - **Les consommateurs/fournisseurs** en cible (*mais pas que*) sont :
-  - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*);
-  - les consoles cloud (applications);
-  - les solutions de ticketing (ex: *minitil*...);
-  - les services archi infra / réseaux;
-  - les services d'infrastructure (ex: cmdbs)
-  - les services de supervision;
-  - la mission de dette IT;
-  - Passage IAP (applications);
-  - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*)
+  - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*): producteur/consommateur;
+  - les consoles cloud (applications) : *consommateur/producteur*;
+  - les solutions de ticketing (ex: *minitil*...) : *consommateur*;
+  - les services archi infra / réseaux : *producteur/consommateur*;
+  - les services d'infrastructure (ex: opencds, cmdbs) : *producteur/consommateur*;
+  - les services de supervision: *consommateur*;
+  - la mission de dette IT: *consommateur*;
+  - Passage IAP (applications): *consommateur*;
+  - les services financiers: *consommateur*;
+  - les sous direction ayant des besoins spécifiques et opérationnels (ex: *via grist*) : *consommateur* à terme producteur;
   - ...
 - **Données essentielles** :
   - **identifiant unique (UUID)**, nom et description de l'application ou services;

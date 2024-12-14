@@ -241,17 +241,15 @@ transition: fade-out
 class: 'custom-default-12px'
 ---
 
-# Architecture logicielle
+# Architecture
 
 - Chaque consommateur(*pétales*) du service est authentifié (***OAuth2***);
 - **Les consommateurs/fournisseurs(producteurs)** en cible (*mais pas que*) sont :
   - le processus traitant des demandes clients (ex: intialisation du *numéro d'affaire*): producteur/consommateur;
   - les services financiers: *consommateur*;
   - les consoles cloud (applications) : *consommateur/producteur*;
-  - les solutions de ticketing (ex: *minitil*...) : *consommateur*;
-  - le service de pilotage d'hébergement : *consommateur*; 
-  - les services archi infra / réseaux : *producteur/consommateur*;
-  - les services d'infrastructure (ex: opencds, cmdbs) : *producteur/consommateur*;
+  - les solutions de ticketing (ex: *minitil*...) : *consommateur*, le service de pilotage d'hébergement : *consommateur*; 
+  - les services archi infra / réseaux : *producteur/consommateur*, les services d'infrastructure (ex: opencds, cmdbs) : *producteur/consommateur*;
   - les services de supervision: *consommateur*;
   - la mission de dette IT: *consommateur*;
   - Passage IAP (applications): *consommateur*;
@@ -312,8 +310,8 @@ architecture-beta
       service cmdb(server)[cmdb] in cmdb_cloud
 
       cmdb:T <--> B:gateway
-
-
+    
+    junction junctionCenter
 ```
 - **Données essentielles** :
   - **identifiant unique (UUID)**, nom et description de l'application ou services;

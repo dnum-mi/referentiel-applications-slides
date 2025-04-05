@@ -123,7 +123,7 @@ class: 'custom-background-14px'
 
 - **Amélioration de la maintenance** : Simplifier les processus de mise à jour et d’audit;
 
-- **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts d'incidents opérationnels;
+- **Amélioration de l'exploitabilité** : Mesurer plus facilement les impacts d'incidents opérationnels;G
 
 </v-clicks>
 
@@ -462,7 +462,7 @@ class: 'custom-background-12px'
 
 <v-click>
 
-- &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL v1, PAI, Tableur SDAN  etc... </span> )
+- &#x1F500; **Automatisation des collectes initiales** : Mettre en place des traitements, des services pour récupérer et injecter automatiquement les données des applications et des systèmes dans le référentiel ( <span v-mark.box.red="2"> &#x1F6B0; données : MAJO, CANEL v1, PAI, Tableur SDAN  etc... </span> )
 - &#x1F50E; **Surveillance des changements** : Déployer des mécanismes qui détectent et présentent automatiquement les changements dans les systèmes tiers (ex: environnements, composants logiciels); 
 - &#x2705; **Validation automatisée** : Valider automatiquement des données avant leur intégration dans le référentiel pour assurer la qualité des informations;
 - &#x1F440; **Validation manuelle (*stewardship*)** : Ajouter si nécessaire une re-validation manuelle des données pour assurer la qualité des informations (par exemple : dédoublonnage); 
